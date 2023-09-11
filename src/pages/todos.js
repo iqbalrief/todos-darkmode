@@ -49,7 +49,7 @@ function Todos() {
     <div className={`flex items-center justify-center min-h-screen font-medium ${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-600'}`}>
       <div className={`max-w-full p-8 rounded-lg shadow-lg w-96 ${darkMode ? 'bg-gray-800 text-gray-200' : 'bg-white text-gray-700'}`}>
         <div className="flex items-center mb-6">
-          <h4 className={`font-semibold ml-3 text-lg ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>Sam's Jobs</h4>
+          <h4 className={`font-semibold ml-3 text-lg ${darkMode ? 'text-gray-200' : 'text-gray-700'}`}>Todos App</h4>
         </div>
         {tasks.map((task, index) => (
           <div key={index}>
